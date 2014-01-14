@@ -5979,6 +5979,21 @@ header img{
   left: -40px;
 }
 
+@media only screen and (max-width: 40em) { 
+  header{
+    background-size: cover;
+  }
+
+  header img{
+    position: static;
+
+  }
+
+  header h1{
+    margin-left: 0px;
+  }
+}
+
 /*****SECTION ONE*****/
 
 .sec_1 {
