@@ -5948,7 +5948,7 @@ header {
 
 .top {
   background: rgba(69, 69, 69, 0.5);
-  border-bottom: 1px solid #784301;
+  border-bottom: 1px solid #c0c0c0;
 }
 
 header h1{
@@ -5960,7 +5960,8 @@ font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   header p{
     color: #fff;
     font-size: 100%;
-    margin-left: 40px;
+    font-weight: bold;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   }
 
 .header_copy{
@@ -5997,14 +5998,18 @@ header img{
 /*****SECTION ONE*****/
 
 .sec_1 {
-  border-top: 60px solid #444444;
-  background-color: #784301;
+  border-top: 60px solid #c0c0c0;
+  background-color: #B06201;
 }
   
-  .sec_1 a{
-    color: #c0c0c0;
+  a{
+    color: #74FFC4;
+    font-size: 110%;
+    font-weight: bold;
   }
-
+    header a{
+      color: #3386CD;
+    }
 .sec_1 h2, .sec_2 h2, .sec_4 h2{
   color: #fff;
   font-weight: bold;
@@ -6022,14 +6027,14 @@ header img{
 }
 
 .sec_1 i {
-  font-size: 300%;
+  font-size: 350%;
 }
 
 /*****SECTION TWO*****/
 
 .sec_2{
-  border-top: 60px solid #444444;
-  background-color: #00664e;
+  border-top: 60px solid #c0c0c0;
+  background-color: #00A37D;
 }
 
 .sec_2 span{
@@ -6047,7 +6052,7 @@ header img{
 /*****SECTION THREE*****/
 
 .sec_3{
-  border-top: 60px solid #444444;
+  border-top: 60px solid #c0c0c0;
   background-image: url("../img/pat.jpg");
   background-size: cover;
 }
@@ -6066,8 +6071,8 @@ border-radius: 8px 0 0 8px;
 /*****SECTION FOUR*****/
 
 .sec_4 {
-   border-top: 60px solid #444444;
-   background-color: #784301;
+   border-top: 60px solid #c0c0c0;
+   background-color: #B06201;
 }
 
 table {
@@ -6106,7 +6111,7 @@ th{
   margin-right: 10px;
 }
   .anchor_i{
-    font-size: 300% !important;
+    font-size: 350% !important;
   }
 
 /*****FOOTER*****/
@@ -6114,11 +6119,11 @@ th{
 footer{
   padding-top: 40px;
   padding-bottom: 20px;
-  background-color: #444;
+  background-color: #c0c0c0;
 }
 
 footer h1 {
-  color: #c0c0c0;
+  color: #444;
   font-weight: bold;
   letter-spacing: 1px;
   top: 4px;
