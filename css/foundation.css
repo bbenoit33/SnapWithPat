@@ -5936,6 +5936,12 @@ section {
   padding-bottom: 60px;
 }
 
+.flap {
+    background-image: url("../img/flap.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    }
+
 /***********/
 
 /*****HEADER*****/
@@ -5953,19 +5959,19 @@ header {
 
 header h1{
   color: #fff;
-  margin-left: 40px;
-font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
 
   header p{
     color: #fff;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: bold;
-    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    text-shadow: 2px 2px 16px #444;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   }
 
 .header_copy{
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 header i{
@@ -5976,8 +5982,10 @@ header i{
 
 header img{
   position: absolute;
-  top: -80px;
+  /*top: -80px;*/
   left: -40px;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 40em) { 
@@ -5998,28 +6006,29 @@ header img{
 /*****SECTION ONE*****/
 
 .sec_1 {
-  border-top: 60px solid #c0c0c0;
-  background-color: #B06201;
+  border-top: 60px solid #fff;
+  background-color: #ffe3ba;
 }
   
   a{
-    color: #74FFC4;
+    color: #00664e;
     font-size: 110%;
     font-weight: bold;
   }
     header a{
-      color: #3386CD;
+      color: #ECFFC4;
     }
-.sec_1 h2, .sec_2 h2, .sec_4 h2{
-  color: #fff;
+
+.sec_1 h2, .sec_2 h2, .sec_4 h2, .sec_6 h2 {
+  color: #381F00;
   font-weight: bold;
   font-size: 180%;
   margin-bottom: 20px;
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
 
-.sec_1 p, .sec_2 p, .sec_4 p{
-  color: #fff;
+.sec_1 p, .sec_2 p, .sec_4 p, .sec_6 p {
+  color: #381F00;
 }
 
 .sec_1 span, .sec_2 span{
@@ -6028,31 +6037,33 @@ header img{
 
 .sec_1 i {
   font-size: 350%;
+  margin: 0 10px;
 }
 
 /*****SECTION TWO*****/
 
 .sec_2{
-  border-top: 60px solid #c0c0c0;
-  background-color: #00A37D;
+  border-top: 60px solid #fff;
+  background-color: #ECFFC4;
+  color: #381F00;
 }
 
 .sec_2 span{
-  color: #fff;
+  color: #381F00;
 }
 
 .sec_2 p{
 
 }
 
-.sec_2 i{
+.sec_2 i, .sec_6 i {
   font-size: 1000%;
 }
 
 /*****SECTION THREE*****/
 
 .sec_3{
-  border-top: 60px solid #c0c0c0;
+  border-top: 60px solid #fff;
   background-image: url("../img/pat.jpg");
   background-size: cover;
 }
@@ -6071,8 +6082,8 @@ border-radius: 8px 0 0 8px;
 /*****SECTION FOUR*****/
 
 .sec_4 {
-   border-top: 60px solid #c0c0c0;
-   background-color: #B06201;
+   border-top: 60px solid #fff;
+   background-color: #ECFFC4;
 }
 
 table {
@@ -6112,14 +6123,24 @@ th{
 }
   .anchor_i{
     font-size: 350% !important;
+    margin: 0 10px;
   }
+
+
+/*****SECTION SIX*****/
+
+.sec_6 {
+   border-top: 60px solid #fff;
+   background-color: #ffe3ba;
+}
+
 
 /*****FOOTER*****/
 
 footer{
   padding-top: 40px;
   padding-bottom: 20px;
-  background-color: #c0c0c0;
+  background-color: #fff;
 }
 
 footer h1 {
