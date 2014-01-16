@@ -6083,7 +6083,7 @@ border-radius: 8px 0 0 8px;
 
 .sec_4 {
    border-top: 60px solid #fff;
-   background-color: #ECFFC4;
+   background-color: #ffe3ba;
 }
 
 table {
@@ -6131,9 +6131,18 @@ th{
 
 .sec_6 {
    border-top: 60px solid #fff;
-   background-color: #ffe3ba;
+   background-color: #ECFFC4;
 }
 
+/*****IMG*****/
+
+.sec_1 img, .sec_4 img {
+  border-bottom: 4px solid #381F00;
+  -webkit-box-shadow: 4px 4px 10px 1px #A8A8A8;
+box-shadow: 4px 4px 10px 1px #A8A8A8;
+width: 340px;
+height: auto;
+}
 
 /*****FOOTER*****/
 
